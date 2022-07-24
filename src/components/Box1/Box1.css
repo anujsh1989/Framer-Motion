@@ -1,0 +1,13 @@
+.box-conntainer{
+padding-bottom: 50px ;
+}
+.box{
+     height: 200px;
+     width: 200px ;
+     background-color: aquamarine;
+     display: flex ;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+      
+}
