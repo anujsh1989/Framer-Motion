@@ -12,10 +12,12 @@ import Menu from './components/Menu/Menu';
 export default function App() {
   return (
     <div className='App' >
-      <Menu/>
-        {/* <Box1 />
-      <Box2 />
-      <Box3 /> */}
+      <Box1/>
+      {/* <Box2/> */}
+      {/* <Example1/> */}
+      {/* <Example2/> */}
+      {/* <Example3/> */}
+      {/* <Example4/> */}
     </div>
   );
 }
