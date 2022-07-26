@@ -1,0 +1,20 @@
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    text-transform: none;
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+    padding: 0;
+    border: 0;
+    line-height: inherit;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

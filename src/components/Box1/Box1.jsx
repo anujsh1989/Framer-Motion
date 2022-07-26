@@ -8,7 +8,7 @@ export default function Box1() {
     const [imgAnimating, setImgAnimating] = useState(false);
     return (
         <div className="box-container" >
-            <motion.div
+            {/* <motion.div
                 className="box"
                 animate={{
                     x: isAnimating ? 1600 : 0,
@@ -27,10 +27,10 @@ export default function Box1() {
                 onClick={() => { setISAnimating(!isAnimating) }}
             >
 
-            </motion.div>
+            </motion.div> */}
             <motion.img src="/logo192.png"
                 animate={{
-                    x: imgAnimating ? 1600 : 0,
+                    x: imgAnimating ? 500 : -500,
                     rotate: imgAnimating ? 360 : 0,
                 }}
                 transition={{
